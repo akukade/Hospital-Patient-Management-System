@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Walk">
+
+    <ImageView
+        android:id="@+id/walk1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/walk13">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/nfctext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkblue"
+        android:textStyle="bold"
+        android:text="NFC TECHNOLOGY"
+        android:textSize="26sp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="98dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/cont"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginRight="81dp"
+        android:layout_marginBottom="70dp"
+        android:background="@color/darkblue"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginRight="149dp"
+        android:background="@color/darkblue"
+        android:text="skip"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18dp">
+
+    </Button>
+
+
+</RelativeLayout>

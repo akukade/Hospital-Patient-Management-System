@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lab"
+    android:background="@drawable/bg">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="HELLO"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="40dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/imguploadbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose File"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="500dp"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/imgchoosebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="500dp"
+        >
+    </Button>
+
+    <EditText
+        android:id="@+id/filenameuploaad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter File Name"
+        android:textStyle="bold"
+        android:layout_marginTop="400dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/patidupload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Patient Id"
+        android:textStyle="bold"
+        android:layout_marginTop="300dp">
+
+    </EditText>
+
+
+</RelativeLayout>
